@@ -1,0 +1,7 @@
+package example;
+
+public class UserRepository {
+    public void save(String username, String email) {
+        System.out.println("Saving user to database: " + username + ", " + email);
+    }
+}
